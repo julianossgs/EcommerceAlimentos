@@ -1,0 +1,514 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+    body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: #f0f2f5;
+    
+    }
+
+    /* Banner */
+    #banner_1 {
+        background-color: #f0f2f5;
+       
+    }
+
+    #banner_1 .col-md-6{
+        
+        font-size:16px;
+    }
+
+    #banner_1 i{
+        padding-right:3px;
+    }
+
+    #banner_1 .left_top a{
+        text-decoration: none;
+        
+    }
+
+    #banner_1 .left_top a:hover {
+            color: #3ce848;
+    }
+
+    #banner_1 .right_top{
+        display:flex;
+        padding-left:0px;
+        list-style: none;
+        margin: 2px 0px 2px 0px;
+        float:right;
+        text-decoration:none;
+    }
+
+    #banner_1 .right_top li {
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    #banner_1 .right_top a {
+        text-decoration: none;
+    }
+
+    #banner_1 .right_top a:hover {
+            color: #3ce848;
+    }
+
+    #banner_1 .left_top{
+        display: flex;
+        padding-left: 0px;
+        list-style:none;
+        margin: 2px 0px 2px 0px;
+        float: left;
+    }
+
+    #banner_1 .left_top li {
+        margin-right: 15px;
+        margin-top: 5px;
+        
+    }
+
+    #banner_1 ul li a {
+        color: #343a40;
+
+    }
+
+    /*Navbar*/
+    #navbar{
+        margin-top:-20px;
+    }
+    #navbar img{
+        height:35px;
+        width:42px
+    }
+
+    #navbar ul{
+        
+        padding-left:340px;
+        text-align:center;
+    }
+
+    #navbar i{
+        text-align:center;
+        font-size:22px;
+        padding-left:4px;
+    }
+
+    #navbar .btn-outline-success {
+    background-color: #fd7e14 !important;
+
+    }
+
+    #navbar input{
+        height:37px;
+        width:270px;
+    }
+
+    #navbar button{
+        height:37px;
+    }
+
+    #navbar .bi-search{
+            font-size:15px;
+    }
+
+
+        /*Navbar 2*/
+    #navbar_2 {
+        margin-top: 8px;
+    }
+
+        #navbar_2 button {
+            border: none;
+            font-size: 13px;
+            background-color: #fa9846;
+            color: #fff;
+        }
+
+        #navbar_2 button{
+            box-shadow: 0 0 0 0;
+            outline: 0;
+        }
+
+        #navbar_2 .dropdown-item{
+            color:black;
+        }
+
+        #navbar_2 a {
+            color: #fff;
+        }
+
+    #a_1{
+        color:black;
+    }
+
+#ddMenuButton2{
+    font-size:11px;
+}
+
+
+/* Carousel 1 */
+
+#carousel_1 {
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 15px;
+    padding: 15px 0px;
+    height: 260px;
+    border-radius: 9px;
+    text-align:center;
+   
+}
+
+#carousel_1 h4{
+    color:black;
+    text-align:left;
+    margin-top:0;
+    padding-bottom:18px;
+    padding-top: -3px;
+    padding-left:25px;
+}
+
+#carousel_1 img{
+    height: 150px;
+    width: 80px;
+    background-color:#fff;
+    border-radius:10px;
+    
+}
+
+#carousel_1 a{
+    text-decoration:none;
+    color:black;
+}
+
+/* Carousel 2 */
+#carousel_2{
+    
+    margin-top:15px;
+    padding-left:0;
+    padding-right:0;
+    padding-top:5px;
+   
+}
+
+
+
+    #carousel_2 .title button {
+        float: right;
+        color: #fd7e14;
+        background-color: none;
+        border: 1px solid #fd7e14;
+        height:34px;
+        width:80px;
+        font-size:13px;
+        position:relative;
+        top:-42px;
+        margin:0;
+    }
+
+    #carousel_2 button:hover {
+        color: #fff;
+        background-color: #fd7e14;
+    }
+
+    #carousel_2 h4 {
+        text-align: left;
+        padding-top: -3px;
+        padding-left: 25px;
+        padding-bottom: -35px;
+    }
+
+    #carousel_2 img {
+        border-radius: 18px;
+        padding-bottom:13px;
+        width:220px;
+        height:250px;
+    }
+
+    #carousel_2 .carousel-control{
+        background-color: none;
+    }
+
+    /* Card */
+#card {
+   
+    margin-top: 25px;
+    
+}
+
+    #card .card {
+        margin-right:6px;
+        margin-left:6px;
+        margin-bottom:6px;
+        padding-top:0;
+        padding-left:8px;
+        height:20rem;
+    }
+
+    #card button {
+        float: right;
+        color: #fd7e14;
+        background-color: none;
+        border: 1px solid #fd7e14;
+        height: 34px;
+        width: 80px;
+        font-size: 13px;
+        position: relative;
+        top: -30px;
+        margin: 0;
+    }
+
+    #card button:hover {
+        color: #fff;
+        background-color: #fd7e14;
+    }
+
+    #card h4 {
+        text-align: left;
+        padding-top: -3px;
+        padding-left: 8px;
+        padding-bottom: -20px;
+    }
+    
+
+    #card a{
+        text-decoration:none;
+    }
+
+    #card p{
+        color: #fd7e14;
+    }
+
+    #card i {
+        color: #fd7e14;
+    }
+
+    #card h5{
+        color:black;
+    }
+
+
+    #card .bi-plus-circle{
+        position:relative;
+        float:right;
+        font-size:25px;
+       
+    }
+
+    /* Carousel 3 */
+
+    #carousel_3{
+        
+        margin-top: 27px;
+        padding-top:6px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 25px;
+        padding-bottom: 13px;
+
+    }
+
+    #carousel_3 button {
+        float: right;
+        color: #fd7e14;
+        background-color: none;
+        border: 1px solid #fd7e14;
+        height: 34px;
+        width: 80px;
+        font-size: 13px;
+        position: relative;
+        top: -42px;
+        margin: 0;
+    }
+
+    #carousel_3 button:hover {
+        color: #fff;
+        background-color: #fd7e14;
+    }
+
+    #carousel_3 h5{
+        color: #fd7e14;
+        font-size:20px;
+    }
+
+    #carousel_3 .p1{
+        color:black;
+        line-height:normal;
+    }
+
+    #carousel_3 .p2{
+        font-size:18px;
+        color:black;
+       
+    }
+
+    #carousel_3 a{
+        text-decoration:none;
+    }
+
+        #carousel_3 .bi-dash-circle {
+            position: relative;
+            float: right;
+            font-size: 25px;
+            color: #fd7e14;
+        }
+
+        #carousel_3 .bi-plus-circle {
+            position: relative;
+            float: right;
+            font-size: 25px;
+            color: #fd7e14;
+        }
+
+
+    /* Nav footer */
+    #navfooter .col-sm-4, .col-sm-6, .col-sm-3 {
+      
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 22px;
+    }
+
+    #dropdownMenuButton1 {
+        border: 1px solid #5e666e;
+        color: #5e666e;
+        width:130px;
+        height:37px;
+        background-color:#fff;
+    }
+
+    #dropdownMenuButton1:hover{
+        background-color:none;
+    }
+
+    #navfooter input{
+        border: 1px solid #5e666e;
+        padding-right:0;
+    }
+
+    #navfooter .btn-outline-secondary {
+        width: 150px;
+        border: 1px solid #f0f2f5;
+        background-color: #fd7e14;
+    }
+
+    #navfooter i {
+        font-size: 20px;
+        padding-left: 7px;
+        padding-right: 4px;
+        position: relative;
+        float: right;
+    }
+   
+  
+  /* Footer */
+  #footer{
+      
+  }
+
+  #footer h6{
+      font-weight:600;
+      font-size:16px;
+  }
+
+#footer ul {
+    padding-left: 0;
+}
+
+#footer li {
+    list-style: none;
+    font-size: 14px;
+    line-height: 30px;
+   
+}
+
+#footer a {
+    text-decoration: none;
+    color: #343a40;
+    
+}
+
+#footer a:hover{
+    color: #5e666e;
+}
+
+#footer img{
+    height:30px;
+    width:100px;
+    float:right;
+}
+
+
+    /* Média query só funciona c/ telas menores de 500px*/
+    @media(max-width:500px) {
+        body {
+        
+            font-size: 13px;
+        
+        }
+
+        #banner_1 .left_top{
+            display:block;
+            
+        }
+
+        #banner_1 .right_top li a{
+            text-align:center;
+        }
+
+        #navbar ul {
+            display:inline;
+            padding-left:0;
+        }
+
+        #navbar_2{
+            width:100%;
+        }
+
+        #carousel_2{
+            width:100%;
+        }
+
+        #carousel_2 h4{
+            padding-left:0;
+        }
+
+        #carousel_2 .title button {
+                margin-top: 15px;
+        }
+
+        #card .card-body{
+           text-align:center;
+           position:relative;
+        }
+
+        #card h4{
+            font-size:19px;
+            padding-left:0;
+        }
+
+        #carousel_1 h4{
+            font-size:18px;
+        }
+
+        #carousel_2 h4{
+            font-size:18px;
+        }
+
+        #carousel_3 h4{
+            font-size:18px;
+        }
+
+        #carousel_3 button {
+            margin-top:15px
+        }
+
+        #navfooter button{
+            font-size:15px;
+        }
+    }
+
+
+
